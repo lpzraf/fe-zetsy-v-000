@@ -4,7 +4,8 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	/*background: #F3EBE9;*/
+	background: #fff
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
@@ -37,8 +38,17 @@ p {
     text-decoration: none;
 }
 
+#featured img {
+  border: 5px rgb(152,173,166) solid;
+}
+
 #press {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#press img {
+    border: 5px #ccc solid;
+    padding: 1px;
 }
 
 .wrapper {
@@ -46,6 +56,10 @@ p {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+div {
+    display: block;
 }
 
 footer {
